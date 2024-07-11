@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  --color: #a748f5;
+  background: linear-gradient(95deg, var(--color) 25%, transparent 25%) -50px 0,
+        linear-gradient(-15deg, var(--color) 25%, transparent 25%) -50px 0,
+        linear-gradient(25deg, transparent 75%, var(--color) 75%) -50px 0,
+        linear-gradient(-45deg, transparent 75%, var(--color) 75%) -50px 0,
+        linear-gradient(-15deg, transparent 75%, var(--color) 75%) -50px 0;
+  background-color: #b669fd;
+  background-size: 40px 40px;
+}
