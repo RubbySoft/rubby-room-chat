@@ -1,6 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Home=()=>{
+
+    const navigate = useNavigate();
+    const handleNavigateToContactMePage =()=>{
+        navigate('/HelloWorld');
+    }
     return(
         <div>
         <center>
@@ -26,7 +32,7 @@ const Home=()=>{
         </p>
         </div>
         
-        <button>Get Started</button>
+        <button onClick={handleNavigateToContactMePage}>Get Started</button>
         <h1>S</h1>
         <h1>O</h1>
         <h1>F</h1>
