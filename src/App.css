@@ -14,6 +14,7 @@ h1{
 h3{
   padding-left: 16%;
   color: #fff;
+  padding-bottom: 30px;
 }
 .card {
   position: relative;
@@ -312,5 +313,11 @@ button:active {
     background-position: 180px;
   }
 }
-
-
+/*
+.divType{
+  color: #fff;
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 45%;
+}
+*/

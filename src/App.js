@@ -9,7 +9,6 @@ function App() {
     <div class="container">
      <BrowserRouter>
       <Routes>
-
         <Route index element={<Home />} />
         <Route path="/HelloWorld" element={<Hello />}>
        </Route>

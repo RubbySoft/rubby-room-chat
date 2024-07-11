@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Type from "./Type";
 
 const Home=()=>{
 
@@ -10,17 +11,19 @@ const Home=()=>{
     return(
         <div>
         <center>
-        <h1 >R</h1>
+        <h1>R</h1>
         <h1>U</h1>
         <h1>B</h1>
         <h1>B</h1>
         <h1>Y</h1>
       </center>
     <h1 className='wel'>Hello ! </h1>
-    <h3>Welcome To 
-      <b> Rubby Room Chat </b>
+    <h3>Welcome To <b><Type/></b>
     </h3>
     <center>
+        <div className="divType">
+                 
+    </div>
     <div class="card">
         <p class="heading">
             Rubby Room Chat
