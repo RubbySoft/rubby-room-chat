@@ -2,6 +2,7 @@ import React from 'react';
 import Type from './Type';
 import RubbyAboutType from './RubbyAboutType';
 import MeType from './MeType';
+import Subscribe from './Subscribe';
 import './Css/About.css';
 
 const About = () => {
@@ -36,6 +37,7 @@ const About = () => {
           </li>
         </ul>
         </center>
+        <Subscribe/>
       </p>
       <h2>About the Developer</h2>
       <p>
