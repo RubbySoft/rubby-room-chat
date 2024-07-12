@@ -1,6 +1,7 @@
 import React from 'react';
 import Type from './Type';
 import RubbyAboutType from './RubbyAboutType';
+import MeType from './MeType';
 import './Css/About.css';
 
 const About = () => {
@@ -40,6 +41,9 @@ const About = () => {
       <p>
         This application was developed by Siddhesh More, a passionate full stack web developer with expertise in various modern web technologies. Siddhesh is currently pursuing a Diploma in Computer Engineering at Mahaveer Polytechnic, Nashik.
       </p>
+      <div className='type-text'>
+        <MeType/>
+      </div>
       <p>
         Contact Siddhesh More:
         <ul>
