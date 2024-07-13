@@ -60,9 +60,14 @@ h3{
 }
 
 .heading {
+  color: #fff;
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 700;
+}
+
+.sub-heading{
+  color:#fff;
 }
 
 .card p:not(.heading) {

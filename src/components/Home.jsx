@@ -24,11 +24,11 @@ const Home=()=>{
         <div className="divType">
                  
     </div>
-    <div class="card">
-        <p class="heading">
+    <div className="card">
+        <p className="heading">
             Rubby Room Chat
         </p>
-        <p>
+        <p className="sub-heading">
             Powered By
         </p>
         <p>RubbySoft
