@@ -18,7 +18,7 @@ const ChatStartPage = () => {
     }
 
     localStorage.setItem('username', username); // Save username to localStorage
-    window.location.href = '/HelloWorld';
+    window.location.href = '/RoomChatPage';
     // Example backend logic to save username (replace with your actual API endpoint)
     axios.post('http://localhost:5000/api/set-username', { username })
       .then(response => {

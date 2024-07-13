@@ -10,7 +10,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import ChatStartPage from './components/RRChat/ChatStartPage';
-
+import RoomChatPage from './components/RRChat/RoomChatPage';
 
 function App() {
   return (
@@ -25,6 +25,8 @@ function App() {
        <Route path="/Services" element={<Services />}></Route>
        <Route path="/Contact" element={<Contact />}></Route>
        <Route path='/ChatStartPage' element={<ChatStartPage />}></Route>
+       <Route path='/RoomChatPage' element={<RoomChatPage />}></Route>
+
         </Routes>
     </BrowserRouter>
     <Footer/>
