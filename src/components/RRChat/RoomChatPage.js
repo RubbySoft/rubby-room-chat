@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hello=()=>{
+const RoomChatPage=()=>{
     return(
         <div>
             <center>
@@ -10,4 +10,4 @@ const Hello=()=>{
     )
 }
 
-export default Hello;
+export default RoomChatPage;

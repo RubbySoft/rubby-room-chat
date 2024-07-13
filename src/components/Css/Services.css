@@ -1,4 +1,28 @@
-.serH1{
-    text-align: center;
-    align-items: center;
-}
+/* src/components/Services.css */
+.services {
+    padding: 20px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+  }
+  
+  .service-card {
+    background-color: #1e1e1e;
+    border: 1px solid #e81cff; /* Secondary color */
+    padding: 15px; 
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .service-card h3 {
+    color: #e81cff; /* Secondary color */
+  }
+  
+  .service-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .service-card li {
+    margin: 5px 0;
+  }
+  

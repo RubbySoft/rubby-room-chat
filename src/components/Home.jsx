@@ -3,10 +3,10 @@ import { useNavigate } from "react-router-dom";
 import Type from "./Type";
 
 const Home=()=>{
-
+ //   alert("Dear User, Thank you for visiting Rubby Room Chat. Please note that this application is currently in its development phase. As a result, some chat and backend functionalities are still under development and may not be fully operational. We appreciate your understanding and patience as we work diligently to enhance your experience. If you encounter any issues or have suggestions, please feel free to reach out to us. Thank you for your support! Best regards, The Rubby Room Chat Team");
     const navigate = useNavigate();
     const handleNavigateToContactMePage =()=>{
-        navigate('/HelloWorld');
+        navigate('/ChatStartPage');
     }
     return(
         <div>

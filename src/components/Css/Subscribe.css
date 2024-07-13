@@ -53,7 +53,7 @@
     gap: 5px;
     color: #414141;
     position: relative;
-  }
+  } 
   
   .form-group label {
     position: absolute;
@@ -75,3 +75,25 @@
     font-size: 12px;
   }
   
+/* Add any additional styles for the contact-info section */
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info h3 {
+  margin-top: 0;
+}
+
+.contact-info a {
+  color: #e81cff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.follo {
+  text-align: center;
+  align-items: center;
+}

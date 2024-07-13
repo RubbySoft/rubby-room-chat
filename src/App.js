@@ -8,6 +8,8 @@ import Hello from './components/Hello';
 import Footer from './components/Footer';
 import About from './components/About';
 import Services from './components/Services';
+import Contact from './components/Contact';
+import ChatStartPage from './components/RRChat/ChatStartPage';
 
 
 function App() {
@@ -21,7 +23,8 @@ function App() {
         <Route path="/HelloWorld" element={<Hello />}></Route>
        <Route path="/About" element={<About />}></Route>
        <Route path="/Services" element={<Services />}></Route>
-
+       <Route path="/Contact" element={<Contact />}></Route>
+       <Route path='/ChatStartPage' element={<ChatStartPage />}></Route>
         </Routes>
     </BrowserRouter>
     <Footer/>

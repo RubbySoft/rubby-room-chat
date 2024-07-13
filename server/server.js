@@ -26,9 +26,9 @@ app.post('/api/contact', (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: 'rubbysoft-email@gmail.com', // Replace with RubbySoft's email
-    subject: `Contact form submission from ${name}`,
-    text: message
+    to: 'rubbysoft.co@gmail.com', // Replace with RubbySoft's email
+    subject: `Rubby Room Chat Contact form submission from ${name} ,${email}`,
+    text: message , 
   };
 
   transporter.sendMail(mailOptions, (error, info) => {

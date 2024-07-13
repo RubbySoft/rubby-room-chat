@@ -3,7 +3,7 @@ import axios from "axios";
 import './Css/Subscribe.css';
 
 const Subscribe =()=> {
-
+ 
     const [email, setEmail] = useState('');
 
     const handleChange = (e) => {

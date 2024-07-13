@@ -3,7 +3,7 @@ import Type from './Type';
 import RubbyAboutType from './RubbyAboutType';
 import MeType from './MeType';
 import Subscribe from './Subscribe';
-import './Css/About.css';
+import './Css/About.css'; 
 
 const About = () => {
   return (
