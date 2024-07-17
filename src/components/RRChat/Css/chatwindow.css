@@ -1,0 +1,11 @@
+.chat-window {
+    flex: 3;
+    padding: 10px;
+    overflow-y: scroll;
+    background-color: #222;
+    border-right: 1px solid #444;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
