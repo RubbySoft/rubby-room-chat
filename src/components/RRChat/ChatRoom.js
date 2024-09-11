@@ -23,8 +23,8 @@ const ChatRoom = () => {
   const [expandedMessageId, setExpandedMessageId] = useState(null);
 
   // Retrieve room name and username from localStorage
-  const roomName = localStorage.getItem('roomName');
-  const username = localStorage.getItem('username');
+  const roomName = localStorage.getItem('roomName') || '';
+  const username = localStorage.getItem('username') || 'Anonymous';
 
   useEffect(() => {
     if (roomName) {
@@ -44,14 +44,14 @@ const ChatRoom = () => {
   }, [roomName]);
 
   const handleSendMessage = async () => {
-    if (message.trim() === '') return;
+    if (message.trim() === '' || !roomName) return;
 
     try {
       const messagesRef = collection(db, 'rooms', roomName, 'messages');
       await addDoc(messagesRef, {
         text: message,
         timestamp: serverTimestamp(),
-        username: username || 'Anonymous' // Default to 'Anonymous' if no username in localStorage
+        username: username
       });
       setMessage('');
     } catch (e) {
