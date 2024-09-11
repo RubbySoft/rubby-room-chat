@@ -106,7 +106,7 @@ const ChatRoom = () => {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-        <button onClick={handleSendMessage}>Send Message</button>
+        <button onClick={handleSendMessage}>Send</button>
       </div>
     </div>
   );
