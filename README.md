@@ -1,6 +1,6 @@
 
 # Rubby Room Chat
-<img src="public/2.png" height="100px" width="100px">
+<img src="public/2.png" height="500px" width="500px">
 Rubby Room Chat is a modern chat application built specifically for mobile users, allowing them to create and join chat rooms, invite friends, and communicate seamlessly. It features a user-friendly interface, minimalistic design, and a real-time chatting experience.
 
 ### Live Demo
