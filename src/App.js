@@ -15,6 +15,7 @@ import ChatRoom from './components/RRChat/ChatRoom';
 import AIChat from './components/RRChat/AIChat';
 
 
+
 function App() {
   return (
     <div class="container">
@@ -31,6 +32,7 @@ function App() {
        <Route path='/RoomChatPage' element={<RoomChatPage />}></Route>
        <Route path='/ChatRoom' element={<ChatRoom />}></Route>
        <Route path='/AIChat' element={<AIChat />}></Route>
+
         </Routes>
     </BrowserRouter>
     <Footer/>
